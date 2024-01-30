@@ -3,7 +3,7 @@ class Book:
     def __init__(self, title, author):
         self.title = title
         self.author = author
-
+        
     def add_book(self, book_type):
         print(f"{book_type.title} by {book_type.author} added to the store!")
 
